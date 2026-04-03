@@ -1,14 +1,19 @@
 version: "3.7"
-
 services:
-
   app_proxy:
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
+      APP_HOST: bittrack_server_1
+      APP_PORT: 8585
+
   server:
-    image: getumbrel/community-app-store-hello-world:latest
+    image: maverick2009/bittrack:1.0.0
     user: "1000:1000"
     init: true
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+    environment:
+      DATA_DIR: "/app/data"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
