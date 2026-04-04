@@ -1,8 +1,8 @@
 manifestVersion: 1
-id: maverick-2009-bittrack
+id: mav-bittrack
 name: BitTrack
 version: "1.0.0"
-tagline: Bitcoin wallet monitor
+tagline: Bitcoin Wallet Monitor
 category: bitcoin
 description: >-
   Aplicação para monitorar carteiras de Bitcoin em tempo real,
