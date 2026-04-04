@@ -14,11 +14,11 @@ developer: Maverick
 website: https://github.com/maverick-2009/BitTrack
 support: https://github.com/maverick-2009/BitTrack/issues
 repo: https://github.com/maverick-2009/BitTrack
-icon: https://raw.githubusercontent.com/maverick-2009/umbrel-store/master/mav-bittrack/icon.png
+icon: https://raw.githubusercontent.com/maverick-2009/UmbrelStore/master/mav-bittrack/icon.png
 port: 8585
 gallery:
-  - https://raw.githubusercontent.com/maverick-2009/umbrel-store/master/mav-bittrack/screenshot1.png
-  - https://raw.githubusercontent.com/maverick-2009/umbrel-store/master/mav-bittrack/screenshot2.png
+  - https://raw.githubusercontent.com/maverick-2009/UmbrelStore/master/mav-bittrack/screenshot1.png
+  - https://raw.githubusercontent.com/maverick-2009/UmbrelStore/master/mav-bittrack/screenshot2.png
 
 dependencies: []
 path: ""
