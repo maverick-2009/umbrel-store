@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: mav-bittrack
 name: BitTrack
-version: "1.1.0"
+version: "1.0.0"
 tagline: Bitcoin Wallet Monitor
 category: bitcoin
 description: >-
