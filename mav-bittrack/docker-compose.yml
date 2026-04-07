@@ -4,9 +4,8 @@ services:
     environment:
       APP_HOST: mav-bittrack_server_1
       APP_PORT: 8585
-
   server:
-    image: ghcr.io/maverick-2009/bittrack:1.1.0@sha256:cd41436d3dbc37520df3b874431663da8f728cc2da15699e976cfe25023913a7
+    image: ghcr.io/maverick-2009/bittrack:1.2.0@sha256:...
     init: true
     restart: on-failure
     stop_grace_period: 1m
@@ -14,5 +13,15 @@ services:
       - ${APP_DATA_DIR}/data:/app/data
     environment:
       DATA_DIR: "/app/data"
+      TOR_PROXY_HOST: tor_proxy
+      TOR_PROXY_PORT: "9050"
     extra_hosts:
       - "host.docker.internal:host-gateway"
+      - "umbrel.local:host-gateway"
+    networks:
+      - default
+      - umbrel_main_network
+
+networks:
+  umbrel_main_network:
+    external: true
