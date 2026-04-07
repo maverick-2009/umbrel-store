@@ -5,11 +5,15 @@ version: "1.0.1"
 tagline: Bitcoin Wallet Monitor
 category: bitcoin
 description: >-
-  Aplicação para monitorar carteiras de Bitcoin em tempo real,
-  com suporte a múltiplas carteiras, histórico de transações
-  e notificações via Telegram e/ou Ntfy.
+  BitTrack is a full-featured dashboard for real-time Bitcoin wallet monitoring.
+  Track balances, recent transactions, and the complete history of multiple wallets
+  simultaneously, all within a clean and responsive interface. Receive instant
+  movement alerts via Telegram and/or Ntfy, staying informed about your holdings
+  without relying on exchanges or third-party services.
 releaseNotes: >-
-  Versão inicial do BitTrack.
+  🚀 Initial release of BitTrack v1.0.1. This version includes real-time monitoring
+  of multiple Bitcoin wallets, full transaction history, Telegram and Ntfy push
+  notifications, and an intuitive browser-based dashboard.
 developer: Maverick
 website: https://github.com/maverick-2009/BitTrack
 support: https://github.com/maverick-2009/BitTrack/issues
